@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Jumbotron from "./components/Jumbotron";
+import Features from "./components/Features";
+
 import { Container, Row, Col } from "./components/Grid";
+
 
 class App extends Component {
 
@@ -8,6 +11,9 @@ class App extends Component {
     return (
       <div>
         <Jumbotron />
+        <div id="divFeatures">
+        <Features/>
+        </div>
       </div>
     );
   }
