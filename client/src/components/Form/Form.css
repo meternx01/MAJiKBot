@@ -1,0 +1,54 @@
+.regform{
+  width: 82%;
+  height: 700px;
+  position: relative;
+  top: -7.5%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fdfff9;
+}
+
+.regforminp{
+  margin: 4%;
+  position: relative;
+  top: 20px;
+}
+
+.reginput{
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 17px;
+}
+
+.regtitle{
+  padding: 25px;
+  margin-bottom: 24px;
+  border-bottom: .7px solid #d19d45;
+}
+
+.btndiv{
+  position: relative;
+  top: 55px;
+}
+
+.formbtn{
+  padding: 13px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 96%;
+  margin-left: 8px;
+  font-size: 19px;
+  background-color: #d19d45;
+  border-color: #d19d45;
+
+}
+
+.smtxt{
+  margin-top: 20px;
+  position: relative;
+  left: 24%;
+}
