@@ -64,7 +64,8 @@ class Form extends Component {
           <div className="card regform">
             <div className="card-block">
 
-              <h3 className="card-title regtitle">Register</h3>
+              <h3 className="card-title regtitle">Sign Up Today</h3>
+              <span className="sexy_line"></span>
                 <form className="regforminp">
                   <div className="row">
                     <div className="form-group col-sm-6">
@@ -96,7 +97,7 @@ class Form extends Component {
                       placeholder="Enter email"
                       name= "email"
                       onChange={this.handleInputChange}/>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
 
                    <div className="form-group">
@@ -108,7 +109,7 @@ class Form extends Component {
                      name="password"
                      onChange = {this.handleInputChange}
                      />
-                     <small id="passwordReq" class="form-text text-muted">Password must be a minimum of 6 characters.</small>
+                     <small id="passwordReq" className="form-text text-muted">Password must be a minimum of 6 characters.</small>
                    </div>
 
                    <div className="form-group">
@@ -126,7 +127,7 @@ class Form extends Component {
               <div className="btndiv">
                 <div className="row">
                   <div className="col-sm-12">
-                    <a href="#" className="btn btn-primary formbtn">Register</a>
+                    <a href="#" className="btn btn-primary formbtn">Create an Account</a>
                   </div>
                 </div>
 
@@ -134,7 +135,6 @@ class Form extends Component {
                   <small className="form-text">Already have an account? Login here. </small>
                 </span>
               </div>
-
             </div>
           </div>
         </div>

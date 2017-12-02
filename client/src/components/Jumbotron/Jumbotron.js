@@ -6,6 +6,9 @@ const Jumbotron = () => (
 
 <div className="jumbotron jumbotron-fluid top-jumb">
   <div className="container">
+    <video id="video-background" preload="true" muted autoPlay loop>
+      <source src="/images/womantype.mp4" type="video/mp4"/>
+    </video>
     <Form/>
   </div>
 </div>
