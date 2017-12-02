@@ -1,3 +1,5 @@
-.jumbotron {
-  height: 500px;
+.top-jumb {
+  height: 730px;
+  background-image: url(https://www3.halton.gov.uk/News/PublishingImages/Lists/Posts/AllPosts/girlcoffee.jpg);
+  background-size: 100%;
 }

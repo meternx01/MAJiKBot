@@ -13,7 +13,7 @@ app.use(express.static("client/build"));
 // app.use(routes);
 
 
-// Start the API server
+// Start server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });

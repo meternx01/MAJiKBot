@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/Jumbotron/Jumbotron.css"],"names":[],"mappings":"AAAA,WACE,YAAc","file":"static/css/main.00c03246.css","sourcesContent":[".jumbotron {\n  height: 500px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/components/Jumbotron/Jumbotron.css"],"sourceRoot":""}
