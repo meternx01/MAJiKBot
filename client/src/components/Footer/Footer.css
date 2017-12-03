@@ -1,0 +1,72 @@
+.footer{
+  background-color: #f4efe3;
+  height: 52%;
+  width: 100%;
+  position: absolute;
+}
+
+.foot-row{
+  position: relative;
+  top: 10px;
+}
+
+.foot-text{
+  position: relative;
+  top: 23px;
+  left: 44%;
+  font-family: 'Nixie One',cursive;
+}
+
+.cs{
+  padding: 15px;
+}
+
+.cs-body{
+  position: relative;
+  left: 36%;
+  top: 3%;
+  padding: 30px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bolder;
+}
+.cs-title{
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-family: 'Nixie One', cursive;
+}
+
+.fa{
+  padding-right: 20px;
+  font-size: 16px;
+  color: #c49031
+}
+.ic{
+  font-size: 15px;
+}
+
+.this-line{
+  width: 50%;
+  position: relative;
+  left: -27%;
+}
+
+.st{
+  float: left;
+  position: relative;
+  top: 86px;
+  left: 15%;
+}
+
+.img{
+  width: 70%;
+  border-right: 1px solid lightgray;
+  padding-right: 45px;
+}
+
+.sit-title{
+  font-size: 18px;
+  font-family: 'Nixie One', cursive;
+  position: relative;
+  left: 16%;
+  top: 52px;
+}
