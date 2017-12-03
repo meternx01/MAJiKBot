@@ -127,7 +127,7 @@ class Form extends Component {
               <div className="btndiv">
                 <div className="row">
                   <div className="col-sm-12">
-                    <a href="#" className="btn btn-primary formbtn">Create an Account</a>
+                    <button onClick={this.handleFormSubmit} className="btn btn-primary formbtn">Create an Account</button>
                   </div>
                 </div>
 

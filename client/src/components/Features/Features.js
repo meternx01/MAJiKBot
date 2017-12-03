@@ -6,10 +6,11 @@ import { Col, Row, Container } from "../../components/Grid";
 
 // remove Jumbotron Fluid ...
 const Features = () => (
-
+  <div className="big-cont">
     <div className="jumbotron jumbotron-fluid featjumb">
       <div className = "container feat-cont">
         <h1 className="feattitle">Features</h1>
+        <hr className="br"></hr>
    				<Row>
    					<Col size="md-4">
    						<h4 className="featureHeading">Natural Language understanding</h4>
@@ -38,6 +39,7 @@ const Features = () => (
    				</Row>
       </div>
 		</div>
+  </div>
 );
 
 export default Features;
