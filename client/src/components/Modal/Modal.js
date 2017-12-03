@@ -18,9 +18,9 @@ const Modal = () => (
           <form className="form-group" id="login-form">
   		       <div className="modal-body">
   				    	<div id="div-login-msg">
-                  <span id="text-login-msg">Type your name and password.</span>
+                  <span id="text-login-msg">Type your email and password.</span>
                 </div>
-  				    	<input id="login_username" className="form-control logname" type="text" placeholder="Name" required/>
+  				    	<input id="login_username" className="form-control logname" type="email" placeholder="Email" required/>
   				    	<input id="login_password" className="form-control logname" type="password" placeholder="Password" required/>
                 <div className="checkbox">
                   <label className="check-lab">
