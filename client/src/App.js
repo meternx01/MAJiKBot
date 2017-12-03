@@ -11,10 +11,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Jumbotron/>
-
-        <div id="divFeatures">
-        <Features/>
+        <div className="first-div">
+          <Jumbotron/>
+          <div className="feat-div">
+            <Features/>
+          </div>
+        </div>
+        <div className="second-div">
+          
         </div>
       </div>
     );

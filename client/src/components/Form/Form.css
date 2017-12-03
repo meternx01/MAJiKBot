@@ -1,8 +1,9 @@
 .regform{
-  width: 82%;
+  width: 71.6%;
   height: 700px;
   position: relative;
-  top: -7.5%;
+  top: 0;
+  left: 19%;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 10px;

@@ -5,48 +5,39 @@ import "./Features.css";
 import { Col, Row, Container } from "../../components/Grid";
 
 // remove Jumbotron Fluid ...
-class Features extends Component {
-  state = {
- 
-  };
+const Features = () => (
 
-  render() {
-    return <Container>
-    <div className="jumbotron-fluid back">
-	
-			 <h1>Features</h1>
-			 <hr className="hrFeatures"/>
-				<Row>
-					<Col size="md-4">
-						<h4 className="featureHeading">Natural Language understanding</h4>
-					</Col>
-					<Col size="md-4">
-						<h4 className="featureHeading">Query Balances</h4>
-					</Col>
-					
-					<Col size="md-4">
-						<h4 className="featureHeading">Identify Entities</h4>
-					</Col>
+    <div className="jumbotron jumbotron-fluid featjumb">
+      <div className = "container feat-cont">
+        <h1 className="feattitle">Features</h1>
+   				<Row>
+   					<Col size="md-4">
+   						<h4 className="featureHeading">Natural Language understanding</h4>
+   					</Col>
+   					<Col size="md-4">
+   						<h4 className="featureHeading">Query Balances</h4>
+   					</Col>
 
-				</Row>	
-				<br />
-				<Row>
-					<Col size="md-4">	
-						<h4 className="featureHeading">Tone Analyzer</h4>
-					</Col>
-					<Col size="md-4">
-						<h4 className="featureHeading">Transferring Payments</h4>
-					</Col>
-					<Col size="md-4">
-						<h4 className="featureHeading">Fluid Conversation</h4>
-					</Col>
+   					<Col size="md-4">
+   						<h4 className="featureHeading">Identify Entities</h4>
+   					</Col>
 
-				</Row>
+   				</Row>
+   				<br />
+   				<Row>
+   					<Col size="md-4">
+   						<h4 className="featureHeading">Tone Analyzer</h4>
+   					</Col>
+   					<Col size="md-4">
+   						<h4 className="featureHeading">Transferring Payments</h4>
+   					</Col>
+   					<Col size="md-4">
+   						<h4 className="featureHeading">Fluid Conversation</h4>
+   					</Col>
 
-			
-			</div>
-		</Container>;
-  }
-}
+   				</Row>
+      </div>
+		</div>
+);
 
 export default Features;

@@ -4,13 +4,13 @@ import Form from "../Form";
 
 const Jumbotron = () => (
 
-<div className="jumbotron jumbotron-fluid top-jumb">
-  <div className="container">
-    <video id="video-background" preload="true" muted autoPlay loop>
+<div className="header-container">
+  <div className="video-container">
+    <video preload="true" autoPlay="true" loop="loop" muted>
       <source src="/images/womantype.mp4" type="video/mp4"/>
     </video>
-    <Form/>
   </div>
+  <Form/>
 </div>
 
 

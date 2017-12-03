@@ -1,21 +1,32 @@
+.featjumb{
+	height: 500px;
+	background-image: url(/images/maccoffee.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.feattitle{
+	margin-bottom: 20px;
+	color: #44433f;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 52px;
+	border-bottom: 1.5px solid #d19d45;
+
+}
+
 .featureHeading{
-	/*text-align: center;*/
-/*	color:yellow;
-	height: 20px;*/
-	font-family: 'Playfair Display', serif;
-}
-.hrFeatures{
-	width: 15%;
-	background-color: orange;
-	position: relative;
-	right: 468px;
+	padding: 15px;
+	font-size: 32px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	color: #3f3f3f;
 }
 
-#divFeatures{
-	background-color: #D3D3D3;
+.feat-cont{
+	background-color: rgba(249, 255, 250, .4);
+	padding: 50px;
+	border-radius: 30px;
 	position: relative;
-	top: -32px;
-	padding-top: 34px;
-	height: 300px
-
+	top: -15px;
 }
