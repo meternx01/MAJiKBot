@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Form.css";
+import Modal from "../Modal"
 
 class Form extends Component {
   // Setting the component's initial state
@@ -132,7 +133,7 @@ class Form extends Component {
                 </div>
 
                 <span className="form-inline smtxt">
-                  <small className="form-text">Already have an account? Login here. </small>
+                  <small className="form-text">Already have an account? <a href="#" data-toggle="modal" data-target="#login-modal">Login here.</a></small>
                 </span>
               </div>
             </div>
@@ -140,6 +141,7 @@ class Form extends Component {
         </div>
       </div>
 
+      <Modal/>
     </div>
   );
 

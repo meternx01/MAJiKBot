@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Form from "../Form";
 
 const Footer = () => (
 

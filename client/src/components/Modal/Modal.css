@@ -1,0 +1,155 @@
+#login-modal .modal-dialog {
+    width: 450px;
+}
+
+#login-modal {
+	margin-top: 20px;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+#img_logo {
+    max-height: 150px;
+    max-width: 150px;
+    position: relative;
+    left: 33%;
+    top: 17px;
+}
+#text-login-msg{
+  font-family: 'Quicksand',sans-serif;
+  margin-left: 20px;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: rgba(254, 255, 252, .9);
+    border: 1px solid #bdc3c7;
+    border-radius: 15px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 30px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mfootc{
+  width: 95%;
+  position: relative;
+  left: -10.5px;
+}
+
+.lost-pw{
+margin: 20px;
+position: relative;
+left: 37%;
+color: #825f0d;
+}
+
+.login-btn{
+  padding: 13px;
+  font-family: 'Quicksand',sans-serif;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 19px;
+  background-color: #d19d45;
+  border-color: #d19d45;
+}
+
+.login-btn:enabled{
+  background-color: #d19d45;
+  border-color: #d19d45;
+  color: #fff;
+}
+
+.login-btn:hover{
+  background-color: #bf8e39;
+  border-color: #bf8e39;
+}
+
+.login-btn:active{
+  background-color: #ad8134;
+  border-color: #ad8134;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.logname{
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.check-lab{
+  font-family: 'Quicksand',sans-serif;
+}
