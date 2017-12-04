@@ -20,7 +20,7 @@ class App extends Component {
           </div>
         </div>
         <div className="second-div">
-          <ChatBot></ChatBot>
+          <ChatBot/>
         </div>
         <Footer/>
       </div>

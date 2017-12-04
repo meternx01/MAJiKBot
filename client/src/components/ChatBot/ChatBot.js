@@ -37,10 +37,61 @@ class Chatbot extends Component {
     },
     {
       id: '6',
-      message: 'Great! Good to hear!',
-      end:true,
+      message: 'Great!',
+      trigger: '7',
     },
-
+    {
+      id: '7',
+      message: 'On a scale of 1-10, how would you rate yourself?',
+      trigger: '8',
+    },
+    {
+      id: '8',
+      user: true,
+      validator: (value) => {
+        if (isNaN(value)) {
+          return 'Value should be a number';
+        }
+        return true;
+      },
+      trigger: '9',
+    },
+    {
+      id: '9',
+      message: 'A {previousValue}? Alright, if you say so. And how would you rate Mariela?',
+      trigger: '10',
+    },
+    {
+      id: '10',
+      user: true,
+      validator: (value) => {
+        if (isNaN(value)) {
+          return 'Value should be a number';
+        }
+        return true;
+      },
+      trigger: '11',
+    },
+    {
+      id: '11',
+      message: 'Well {previousValue} was a good guess but the correct answer is 20. Clearly.',
+      trigger: '12',
+    },
+    {
+      id: '12',
+      message: 'Any final thoughts?',
+      trigger: '13',
+    },
+    {
+      id: '13',
+      user: true,
+      trigger: '14',
+    },
+    {
+      id: '14',
+      message: 'Cool story, bro! Talk to you later!',
+      end: true,
+    },
         ]}
       />
 

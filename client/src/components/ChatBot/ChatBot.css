@@ -1,5 +1,27 @@
 .chatbot-whole{
   position: relative;
-  left: 35%;
+  left: 28.2%;
   top: -20px;
+}
+
+.kdZMGe{
+  width: 650px !important;
+  background: #f9f9f4 !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.rsc-header{
+  background: #d19d45 !important;
+}
+
+.fhAWVE{
+  background: #d19d45 !important;
+}
+
+.jgMjlR{
+  background: #d19d45 !important;
+}
+
+.rsc-content{
+  padding: 13px !important;
 }
