@@ -8,6 +8,7 @@ class Chatbot extends Component {
     return(
 
       <ChatBot className="chatbot-whole"
+       recognitionEnable={true}
         steps={[
           {
             id: '1',
