@@ -17,9 +17,9 @@ class Form extends Component {
     let value = event.target.value;
     const name = event.target.name;
 
-    if (name === "password") {
-      value = value.substring(0, 15);
-    }
+    // if (name === "password") {
+    //   value = value.substring(0, 15);
+    // }
     // Updating the input's state
     this.setState({
       [name]: value
@@ -29,9 +29,9 @@ class Form extends Component {
   handleFormSubmit = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
-    if (this.state.firstName || this.state.lastName) {
+    if (this.state.firstName === null || this.state.lastName === null) {
       alert("Fill out your first and last name please!");
-    } else if(this.state.email) {
+    } else if(this.state.email === null) {
       alert("You must provide a valid email!");
     } else if (this.state.password.length < 6) {
       alert(

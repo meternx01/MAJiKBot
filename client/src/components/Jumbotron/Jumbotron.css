@@ -1,6 +1,10 @@
 body{
   overflow-x: hidden;
   margin: 0px 0px 100px; /* bottom = footer height */
+  background-image: url(/images/bg1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 .header-container{

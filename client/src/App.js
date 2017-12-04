@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Jumbotron from "./components/Jumbotron";
 import Features from "./components/Features";
 import Form from "./components/Form";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import ChatBot from "./components/ChatBot";
 
 import { Container, Row, Col } from "./components/Grid";
 
@@ -19,7 +20,7 @@ class App extends Component {
           </div>
         </div>
         <div className="second-div">
-
+          <ChatBot></ChatBot>
         </div>
         <Footer/>
       </div>
