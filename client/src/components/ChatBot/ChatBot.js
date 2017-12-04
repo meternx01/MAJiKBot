@@ -26,7 +26,7 @@ class Chatbot extends Component {
     },
     {
       id: '4',
-      message: 'How are you',
+      message: 'How are you?',
       trigger: '5',
     },
     {
@@ -36,7 +36,7 @@ class Chatbot extends Component {
     },
     {
       id: '6',
-      message: 'Great',
+      message: 'Great! Good to hear!',
       end:true,
     },
 
