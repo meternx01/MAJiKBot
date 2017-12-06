@@ -68,6 +68,7 @@ class Form extends Component {
               <h3 className="card-title regtitle">Sign Up Today</h3>
               <span className="sexy_line"></span>
                 <form className="regforminp">
+                  <div id="div-login-msg"></div>
                   <div className="row">
                     <div className="form-group col-sm-6">
                        <input
@@ -76,7 +77,9 @@ class Form extends Component {
                          name="firstName"
                          onChange={this.handleInputChange}
                          type="text"
-                         placeholder="First Name"/>
+                         placeholder="First Name"
+                         required
+                         />
                     </div>
 
                     <div className="form-group col-sm-6">
@@ -86,7 +89,8 @@ class Form extends Component {
                         name="lastName"
                         onChange={this.handleInputChange}
                         type="text"
-                        placeholder="Last Name"/>
+                        placeholder="Last Name"
+                        required/>
                     </div>
                   </div>
 
@@ -97,7 +101,8 @@ class Form extends Component {
                       value = {this.state.email}
                       placeholder="Enter email"
                       name= "email"
-                      onChange={this.handleInputChange}/>
+                      onChange={this.handleInputChange}
+                      required/>
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
 
@@ -109,7 +114,7 @@ class Form extends Component {
                      placeholder="Password"
                      name="password"
                      onChange = {this.handleInputChange}
-                     />
+                     required/>
                      <small id="passwordReq" className="form-text text-muted">Password must be a minimum of 6 characters.</small>
                    </div>
 
@@ -121,7 +126,7 @@ class Form extends Component {
                       placeholder="Confirm Password"
                       name="confirmPassword"
                       onChange = {this.handleInputChange}
-                      />
+                      required/>
                   </div>
 
                 </form>
