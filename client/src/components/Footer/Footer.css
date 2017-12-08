@@ -3,6 +3,7 @@
   height: 52%;
   width: 100%;
   position: absolute;
+  z-index: -101;
 }
 
 .foot-row{

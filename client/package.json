@@ -9,6 +9,7 @@
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
     "react-simple-chatbot": "^0.2.9",
+    "react-timeout": "^1.0.1",
     "styled-components": "^2.2.4"
   },
   "scripts": {

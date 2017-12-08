@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Features.css";
+import ChatBot from "../ChatBot";
 
 // import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
@@ -38,6 +39,7 @@ const Features = () => (
 
    				</Row>
       </div>
+      <ChatBot/>
 		</div>
   </div>
 );

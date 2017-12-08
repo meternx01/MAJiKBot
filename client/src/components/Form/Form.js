@@ -68,72 +68,78 @@ class Form extends Component {
               <h3 className="card-title regtitle">Sign Up Today</h3>
               <span className="sexy_line"></span>
                 <form className="regforminp">
-                  <div id="div-login-msg"></div>
                   <div className="row">
                     <div className="form-group col-sm-6">
                        <input
+                         id="first_register"
                          className="form-control reginput"
                          value={this.state.firstName}
                          name="firstName"
                          onChange={this.handleInputChange}
                          type="text"
                          placeholder="First Name"
-                         required
+                         required="true"
                          />
                     </div>
 
                     <div className="form-group col-sm-6">
                       <input
+                        id="second_register"
                         className="form-control reginput"
                         value={this.state.lastName}
                         name="lastName"
                         onChange={this.handleInputChange}
                         type="text"
                         placeholder="Last Name"
-                        required/>
+                        required="true"/>
                     </div>
                   </div>
 
                   <div className="form-group">
                     <input
+                      id="email_register"
                       type="email"
                       className="form-control reginput"
                       value = {this.state.email}
                       placeholder="Enter email"
                       name= "email"
                       onChange={this.handleInputChange}
-                      required/>
+                      required="true"/>
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
 
                    <div className="form-group">
                     <input
+                     id="pw_register"
                      type="password"
                      className="form-control reginput"
                      value = {this.state.password}
                      placeholder="Password"
                      name="password"
                      onChange = {this.handleInputChange}
-                     required/>
+                     pattern=".{6,15}"
+                     required="true"/>
                      <small id="passwordReq" className="form-text text-muted">Password must be a minimum of 6 characters.</small>
                    </div>
 
                    <div className="form-group">
                     <input
+                      id="cpw_register"
                       type="password"
                       className="form-control reginput"
                       value = {this.state.confirmPassword}
                       placeholder="Confirm Password"
                       name="confirmPassword"
+                      pattern=".{6,15}"
                       onChange = {this.handleInputChange}
-                      required/>
+                      required="true"/>
                   </div>
 
                 </form>
               <div className="btndiv">
                 <div className="row">
                   <div className="col-sm-12">
-                    <button onClick={this.handleFormSubmit} className="btn btn-primary formbtn">Create an Account</button>
+                    <button type="submit" onClick={this.handleFormSubmit} className="btn btn-primary formbtn">Create an Account</button>
                   </div>
                 </div>
 

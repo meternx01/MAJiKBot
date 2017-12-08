@@ -1,17 +1,21 @@
 .chatbot-whole{
-  position: relative;
-  left: 32%;
-  top: -20px;
+  position: fixed;
+  left: 62%;
+  top: 35%;
 }
 
 .kdZMGe{
-  width: 450px !important;
+  width: 520px !important;
   background: #f9f9f4 !important;
   font-family: 'Quicksand', sans-serif !important;
+  box-shadow: 0 0 0 0 !important;
+  z-index: 101;
 }
 
 .rsc-header{
-  background: #d19d45 !important;
+  background: transparent !important;
+  height: 15px !important;
+  color: transparent !important;
 }
 
 .fhAWVE{
@@ -19,6 +23,10 @@
 }
 
 .jgMjlR{
+  background: #d19d45 !important;
+}
+
+.fMcZCH{
   background: #d19d45 !important;
 }
 

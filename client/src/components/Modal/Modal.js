@@ -73,7 +73,7 @@ class Modal extends Component {
                 	 </div>
         				   <div className="modal-footer">
                       <div className="mfootc">
-                        <button onChange={this.handleFormSubmit} type="submit" className="btn btn-primary login-btn">Login</button>
+                        <button onChange={this.handleLogin} type="submit" className="btn btn-primary login-btn">Login</button>
                       </div>
         				  </div>
                   <div>
