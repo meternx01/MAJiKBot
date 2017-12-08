@@ -44,7 +44,11 @@ class Form extends Component {
       );
     }
      else {
-      alert(`Hello ${this.state.firstName} ${this.state.lastName}`);
+      // alert(`Hello ${this.state.firstName} ${this.state.lastName}`);
+
+      // call login function to set authentication state in the App component
+      this.props.login();
+
     }
 
     this.setState({

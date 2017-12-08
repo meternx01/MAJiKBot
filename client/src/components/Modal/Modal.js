@@ -20,6 +20,14 @@ class Modal extends Component {
   handleFormSubmit = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
+    if (this.state.email === 'mari.vlz13@gmail.com' && this.state.password === 'bootcamp') {
+      alert("this doesn't work yet but it'd be cool")
+    }
+     else {
+
+      alert('Wrong email or password!')
+
+    }
 
     this.setState({
       email: "",
@@ -73,7 +81,7 @@ class Modal extends Component {
                 	 </div>
         				   <div className="modal-footer">
                       <div className="mfootc">
-                        <button onChange={this.handleLogin} type="submit" className="btn btn-primary login-btn">Login</button>
+                        <button onClick={this.handleFormSubmit} type="submit" className="btn btn-primary login-btn">Login</button>
                       </div>
         				  </div>
                   <div>

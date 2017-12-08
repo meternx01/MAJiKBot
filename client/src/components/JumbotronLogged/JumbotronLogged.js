@@ -57,7 +57,7 @@ class JumbotronLogged extends Component {
 
           <div className="container btn-desc">
             <a href="#two" onClick={this.handleGetStarted} className="btn btn-primary btn-lggd">Get Started</a>
-            <a href="#" className="btn btn-primary btn-lggd">Log Out</a>
+            <a href="?" className="btn btn-primary btn-lggd">Log Out</a>
           </div>
         </div>
       </div>

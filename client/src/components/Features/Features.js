@@ -7,7 +7,7 @@ import ChatBot from "../ChatBot";
 import { Col, Row, Container } from "../../components/Grid";
 
 // remove Jumbotron Fluid ...
-const Features = () => (
+const Features = (props) => (
   <div className="big-cont">
     <div className="jumbotron jumbotron-fluid featjumb">
       <div className = "container feat-cont">
@@ -40,7 +40,7 @@ const Features = () => (
 
    				</Row>
       </div>
-      <ChatBot/>
+      {props.authenticated && <ChatBot />}
       {/* <Icon/> */}
 		</div>
   </div>
