@@ -46,7 +46,7 @@ class Modal extends Component {
           <div className="modal-dialog">
         		<div className="modal-content">
         			<div className="modal-header" align="center">
-        				<img className="img-circle" alt="majikbot logo" id="img_logo" src="/images/majikbot.png"/>
+        				<img className="img-circle" alt="majikbot logo" id="img_logo" src="/images/majlogo.png"/>
         				<button type="button" className="close" data-dismiss="modal" aria-label="Close">
         					<span className="glyphicon glyphicon-remove" aria-hidden="true"></span>
         				</button>
