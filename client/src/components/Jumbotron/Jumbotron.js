@@ -1,6 +1,7 @@
 import React from 'react';
 import './Jumbotron.css';
 import Form from '../Form';
+import Modal from '../Modal';
 
 const Jumbotron = props => (
 	<div className="header-container">
@@ -12,6 +13,7 @@ const Jumbotron = props => (
 		{/* render login form and pass the login function
   for setting authentication state in the App component */}
 		<Form login={props.login} />
+		<Modal login={props.login}/>
 	</div>
 );
 

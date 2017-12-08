@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Form.css";
-import Modal from "../Modal"
+// import Modal from "../Modal"
 
 class Form extends Component {
   // Setting the component's initial state
@@ -156,7 +156,7 @@ class Form extends Component {
         </div>
       </div>
 
-      <Modal/>
+      {/* <Modal/> */}
     </div>
   );
 

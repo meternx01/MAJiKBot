@@ -80,6 +80,10 @@
     border-bottom: 0px;
 }
 
+.modal-open{
+  overflow: visible;
+}
+
 .modal-body {
     position: relative;
     padding: 30px;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Modal.css";
+import $ from 'jquery';
 
 class Modal extends Component {
   state = {
@@ -17,15 +18,18 @@ class Modal extends Component {
     });
   };
 
-  handleFormSubmit = event => {
+  handleLogin = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
     if (this.state.email === 'mari.vlz13@gmail.com' && this.state.password === 'bootcamp') {
-      alert("this doesn't work yet but it'd be cool")
+      this.props.login();
+      $(".modal").hide();
+      $('.modal-backdrop').hide();
+      $('.modal-footer').hide();
     }
      else {
 
-      alert('Wrong email or password!')
+      alert('Wrong email or password!');
 
     }
 
@@ -38,7 +42,7 @@ class Modal extends Component {
   render() {
     return(
       <div>
-        <div className="modal fade" id="login-modal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div className="modal fade" data-toggle="modal" id="login-modal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div className="modal-dialog">
         		<div className="modal-content">
         			<div className="modal-header" align="center">
@@ -81,7 +85,7 @@ class Modal extends Component {
                 	 </div>
         				   <div className="modal-footer">
                       <div className="mfootc">
-                        <button onClick={this.handleFormSubmit} type="submit" className="btn btn-primary login-btn">Login</button>
+                        <button onClick={this.handleLogin} type="submit" className="btn btn-primary login-btn">Login</button>
                       </div>
         				  </div>
                   <div>
