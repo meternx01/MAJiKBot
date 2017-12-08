@@ -15,11 +15,11 @@ class App extends Component {
       <div>
         <div className="first-div">
           <Jumbotron/>
-          <div id="one" className="feat-div">
+          <div id="two" className="feat-div">
             <Features/>
           </div>
         </div>
-        <div id="two" className="second-div">
+        <div id="one" className="second-div">
         </div>
         <Footer/>
       </div>
